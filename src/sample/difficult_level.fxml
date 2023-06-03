@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="anocherpane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #006400;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.DifficultLevel">
+    <children>
+        <ImageView fitHeight="800.0" fitWidth="1300.0" layoutX="200.0" layoutY="00.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../Pic/Ice_Level.png" />
+            </image>
+        </ImageView>
+        <Button fx:id="button" layoutX="978.0" layoutY="52.0" mnemonicParsing="false" onAction="#begin" prefHeight="54.0" prefWidth="89.0" text="START">
+            <font>
+                <Font name="System Bold" size="17.0" />
+            </font>
+        </Button>
+      <TextField fx:id="scoreText" layoutX="230.0" layoutY="79.0" prefHeight="31.0" prefWidth="75.0" style="-fx-background-color: #deb887;" />
+      <MenuButton layoutX="1110.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="151.0" style="-fx-background-color: #006400;" text="MENU" textFill="#ddcfcf">
+        <items>
+          <MenuItem mnemonicParsing="false" onAction="#backToMenu" style="-fx-background-color: #006400;" text="MAIN MENU" />
+          <MenuItem mnemonicParsing="false" style="-fx-background-color: #006400;" text="PAUSE" />
+        </items>
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </MenuButton>
+    </children>
+</AnchorPane>

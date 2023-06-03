@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="anocherpane" prefHeight="637.0" prefWidth="958.0" style="-fx-background-color: #7c5640;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.simpleLevel">
+    <children>
+        <ImageView fitHeight="900.0" fitWidth="1500.0" layoutX="150.0" layoutY="00.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../Pic/PlantsVsZombies6.png" />
+            </image>
+        </ImageView>
+        <TextField fx:id="scoreText" layoutX="181.0" layoutY="90.0" prefHeight="32.0" prefWidth="83.0" style="-fx-background-color: #deb887;" />
+        <Button fx:id="button" layoutX="1043.0" layoutY="46.0" mnemonicParsing="false" onAction="#begin" prefHeight="44.0" prefWidth="64.0" style="-fx-background-color: #ffe0b5;" text="START" textFill="#5c2e29e3">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Button>
+      <MenuButton layoutX="1149.0" layoutY="46.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="98.0" style="-fx-background-color: #ffe0b5;" text="MENU" textFill="#5c2e29">
+        <items>
+          <MenuItem mnemonicParsing="false" onAction="#backToMenu" style="-fx-background-color: #ffe0b5;" text="MAIN MENU" />
+          <MenuItem mnemonicParsing="false" style="-fx-background-color: #ffe0b5;" text="PAUSE" />
+        </items>
+         <font>
+            <Font name="Droid Sans Bold" size="14.0" />
+         </font>
+      </MenuButton>
+    </children>
+</AnchorPane>

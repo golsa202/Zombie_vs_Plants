@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="anchorpane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <ImageView fitHeight="930.0" fitWidth="2000.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../Pic/Plants-vs.-Zombies.jpg" />
+            </image>
+        </ImageView>
+        <Button fx:id="start_button" layoutX="516.0" layoutY="429.0" mnemonicParsing="false" onAction="#start" style="-fx-background-color: #77b0bd;" text="START" textFill="#2c5e69">
+            <font>
+                <Font name="Cambria Bold" size="31.0" />
+            </font>
+        </Button>
+      <Button fx:id="record_button" layoutX="719.0" layoutY="312.0" mnemonicParsing="false" onAction="#showRecords" prefHeight="62.0" prefWidth="138.0" style="-fx-background-color: #8f5050;" text="RECORDS" textFill="#211f1f">
+         <font>
+            <Font name="Cambria Bold" size="19.0" />
+         </font></Button>
+      <Button layoutX="806.0" layoutY="682.0" mnemonicParsing="false" prefHeight="62.0" prefWidth="138.0" style="-fx-background-color: #4f674c;" text="EXIT" textFill="#8abf83">
+         <font>
+            <Font name="Cambria" size="27.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>

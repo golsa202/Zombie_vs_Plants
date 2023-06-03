@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="810.0" prefWidth="1500.0" style="-fx-background-color: #483d8b;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.level">
+    <children>
+        <ImageView fx:id="zombie" fitHeight="800.0" fitWidth="1300.0" layoutX="110.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../Pic/secpage.jpg" />
+            </image>
+        </ImageView>
+        <Button fx:id="hard_leve" layoutX="843.0" layoutY="14.0" mnemonicParsing="false" onAction="#hardGame" onMouseEntered="#enter" prefHeight="58.0" prefWidth="130.0" text="HARD" textFill="#4e1c4a">
+            <font>
+                <Font name="Cambria Bold" size="26.0" />
+            </font>
+        </Button>
+        <Button fx:id="medium" layoutX="457.0" layoutY="391.0" mnemonicParsing="false" onAction="#normalGame" onMouseEntered="#nEnter" prefHeight="58.0" prefWidth="130.0" text="MEDIUM" textFill="#5e2d63">
+            <font>
+                <Font name="Cambria Bold" size="24.0" />
+            </font>
+        </Button>
+        <Button fx:id="easy" layoutX="599.0" layoutY="746.0" mnemonicParsing="false" onAction="#easyGame" onMouseEntered="#eEnter" prefHeight="58.0" prefWidth="130.0" text="EASY" textFill="#5d3c63">
+            <font>
+                <Font name="Cambria Bold" size="27.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>
